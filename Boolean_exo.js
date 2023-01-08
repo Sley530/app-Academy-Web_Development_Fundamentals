@@ -5,3 +5,4 @@ console.log(false || false)   // false
 console.log(!false && true)
 console.log(!true || !false)
 console.log(false && false)
+console.log(!false || (false && true))
