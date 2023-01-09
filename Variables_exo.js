@@ -25,3 +25,4 @@ age = 82;
 console.log(firstName);
 console.log(lastName);
 console.log(age);
+console.log(2 ** 3);
