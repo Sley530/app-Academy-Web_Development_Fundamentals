@@ -5,7 +5,7 @@ function sayHello(name)
 }
   
 console.log(sayHello("world"));
-  
+console.log();  
 
   /* In this exercise I will write 10 functions 
    * with different messages and console log them.
@@ -16,7 +16,8 @@ console.log(sayHello("world"));
 //Function No. 1
 function intro(firstName, lastName)
 {
-    return "My name is " + firstName + " " + lastName + ".";
+    let a = "Function 1: ";
+    return a + "My name is " + firstName + " " + lastName + ".";
 }
   
 console.log(intro("Paul-Wesley", "Jeanty"));
