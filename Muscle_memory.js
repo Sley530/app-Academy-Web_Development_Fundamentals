@@ -20,7 +20,7 @@ function sayHello(name) {
       return "Hello " + fName + " " + lName + ".";
   }
   
-  console.log(greet("Paul", "Wesley"));
+  console.log(greet("Paul-Wesley", "Jeanty"));
   
   // Function No.3
 function question(x, y) 
