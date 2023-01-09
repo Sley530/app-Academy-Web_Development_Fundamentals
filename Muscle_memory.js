@@ -94,4 +94,4 @@ function divProof(dividend, divisor, quotient)
         return false;
 }
 
-console.log(divProof(2, 3, 2));
+console.log(divProof(5, 2, 1));
