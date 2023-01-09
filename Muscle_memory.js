@@ -1,27 +1,36 @@
-function sayHello(name) {
+function sayHello(name) 
+{
     let msg = "Hello, " + name + ". How are you?";
     return msg;
-  }
+}
   
-  console.log(sayHello("world"));
+console.log(sayHello("world"));
   
-  // In this exercise I will write 10 functions with different messages and console log them.
-  // Function No. 1
-  function intro(firstName, lastName)
-  {
-      return "My name is " + firstName + " " + lastName + ".";
-  }
+
+  /* In this exercise I will write 10 functions 
+   * with different messages and console log them.
+   *
+   * @author Sley
+   */ 
+
+//Function No. 1
+function intro(firstName, lastName)
+{
+    return "My name is " + firstName + " " + lastName + ".";
+}
   
-  console.log(intro("Paul-Wesley", "Jeanty"));
+console.log(intro("Paul-Wesley", "Jeanty"));
   
-  // Function No.2
-  function greet(fName, lName)
-  {
-      return "Hello " + fName + " " + lName + ".";
-  }
+
+// Function No.2
+function greet(fName, lName)
+{
+    return "Hello " + fName + " " + lName + ".";
+}
   
-  console.log(greet("Paul-Wesley", "Jeanty"));
+console.log(greet("Paul-Wesley", "Jeanty"));
   
+
   // Function No.3
 function question(x, y) 
 {
@@ -31,6 +40,7 @@ function question(x, y)
 
 console.log(question(2, 4));
 
+
 // Function No.4
 function add(x, y)
 {
@@ -38,6 +48,7 @@ function add(x, y)
 }
 
 console.log(add(2, 4));
+
 
 // Function No.5
 function sub(x, y)
@@ -47,6 +58,7 @@ function sub(x, y)
 
 console.log(sub(5, 15));
 
+
 // Function No.6
 function mul(x, y)
 {
@@ -54,6 +66,7 @@ function mul(x, y)
 }
 
 console.log(mul(6, 6));
+
 
 // Function No.7
 function div(x, y)
@@ -63,6 +76,7 @@ function div(x, y)
 
 console.log(div(2, 4));
 
+
 // Function No.8
 function circ_perim(radius)
 {
@@ -70,6 +84,7 @@ function circ_perim(radius)
 }
 
 console.log(circ_perim(5));
+
 
 // Function No.9
 function circle_area(radius)
@@ -80,6 +95,7 @@ function circle_area(radius)
 }
 
 console.log(circle_area(12));
+
 
 // Function No.10
 function divProof(dividend, divisor, quotient)
