@@ -26,7 +26,8 @@ console.log(intro("Paul-Wesley", "Jeanty"));
 // Function No.2
 function greet(fName, lName)
 {
-    return "Hello " + fName + " " + lName + ".";
+    let a = "Function 2: ";
+    return a + "Hello " + fName + " " + lName + ".";
 }
   
 console.log(greet("Paul-Wesley", "Jeanty"));
@@ -35,8 +36,9 @@ console.log(greet("Paul-Wesley", "Jeanty"));
   // Function No.3
 function question(x, y) 
 {
+    let a = "Function 3: ";
     let exp = x ** y;
-    return exp; 
+    return a + exp; 
 }
 
 console.log(question(2, 4));
@@ -45,7 +47,8 @@ console.log(question(2, 4));
 // Function No.4
 function add(x, y)
 {
-    return x + y;
+    let a = "Function 4: ";
+    return a + (x + y);
 }
 
 console.log(add(2, 4));
@@ -54,7 +57,8 @@ console.log(add(2, 4));
 // Function No.5
 function sub(x, y)
 {
-    return x - y;
+    let a = "Function 5: ";
+    return a + (x - y);
 }
 
 console.log(sub(5, 15));
@@ -63,7 +67,8 @@ console.log(sub(5, 15));
 // Function No.6
 function mul(x, y)
 {
-    return x * y;
+    let a = "Function 6: ";
+    return a + (x * y);
 }
 
 console.log(mul(6, 6));
@@ -72,7 +77,8 @@ console.log(mul(6, 6));
 // Function No.7
 function div(x, y)
 {
-    return x / y;
+    let a = "Function 7: ";
+    return a + (x / y);
 }
 
 console.log(div(2, 4));
