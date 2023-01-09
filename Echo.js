@@ -6,10 +6,9 @@
  */
 
 function echo(string) {
-    let str = string.toUpperCase() + "!";
-    let $str = string + "!";
-    let _str = string.toLowerCase() + "!";
-    let _str_ = str + " ... " + $str + " ... " + _str;
+    let str = string.toUpperCase();
+    let _str = string.toLowerCase();
+    let _str_ = str + " ... " + string + " ... " + _str;
     console.log(_str_);
   }
   
