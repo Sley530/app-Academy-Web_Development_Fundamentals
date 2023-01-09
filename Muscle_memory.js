@@ -87,7 +87,8 @@ console.log(div(2, 4));
 // Function No.8
 function circ_perim(radius)
 {
-    return 2 * 3,14 * radius;
+    let a = "Function 8: ";
+    return a + (2 * 3,14 * radius);
 }
 
 console.log(circ_perim(5));
@@ -98,7 +99,8 @@ function circle_area(radius)
 {
     let pi = 3.14;
     let area = pi * radius ** 2;
-    return area;
+    let a = "Function 9: ";
+    return a + area;
 }
 
 console.log(circle_area(12));
@@ -109,12 +111,13 @@ function divProof(dividend, divisor, quotient)
 {
     let remainder = dividend % divisor;
     let div = quotient * divisor + remainder;
+    let a = "Function 10: ";
 
     if(div === dividend)
     {
-        return true;
+        return a + true;
     }
-        return false;
+        return a + false;
 }
 
 console.log(divProof(5, 2, 2));
