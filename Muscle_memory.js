@@ -82,5 +82,16 @@ function circle_area(radius)
 console.log(circle_area(12));
 
 // Function No.10
-function circle_perim(radius)
+function divProof(dividend, divisor, quotient)
 {
+    let remainder = dividend % divisor;
+    let div = quotient * divisor + remainder;
+
+    if(div === dividend)
+    {
+        return true;
+    }
+        return false;
+}
+
+console.log(divProof(2, 3, 2));
