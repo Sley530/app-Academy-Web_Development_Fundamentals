@@ -6,7 +6,7 @@
  */ 
 
 function whisper(str) {
-    return str.TolowerCase();
+    return str.toLowerCase();
   }
   
   console.log(whisper("Hey Buddy")); // => "...hey buddy..."
