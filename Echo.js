@@ -10,7 +10,7 @@ function echo(string) {
     let $str = string + "!";
     let _str = string.toLowerCase() + "!";
     let _str_ = str + " ... " + $str + " ... " + _str;
-    return _str_;
+    console.log(_str_);
   }
   
   echo("Mom!"); // => prints "MOM! ... Mom! ... mom!"
