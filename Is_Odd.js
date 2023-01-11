@@ -17,7 +17,6 @@ function isOdd(num) {
     {
         return false;
     } 
-    
         return true;
   }
   
@@ -29,7 +28,7 @@ function isOdd(num) {
  // Without conditionals.
 
  function isOdd(num) {
-    let even = (num % 2) != 0;
+    let even = num % 2 !== 0;
     return even;
  }
     
