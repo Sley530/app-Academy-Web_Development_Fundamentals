@@ -1,4 +1,9 @@
-
+/* In this exercise I will Define 
+ * a function isFive that will return true 
+ * if a number is equal to 5 and false if it is not.
+ * 
+ * @author Sley
+ */ 
 
 function isFive(num) {
 
