@@ -28,7 +28,7 @@ console.log(isOdd(-17)); // => true
 
  // Without conditionals.
 
- function isOdd(num)
+ function isOdd_W_O(num)
  {
     let even = num % 2 !== 0;
     return even;
