@@ -10,10 +10,10 @@ function isFive(num) {
     {
         return true;
     }
-    else 
-    {
+    // else 
+    // {
         return false;
-    }
+    // }
 }
 
 
