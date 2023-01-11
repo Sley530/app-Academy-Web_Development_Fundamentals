@@ -30,10 +30,11 @@
 
  function isOdd(num) {
     num % 2 === 0;
+    console.log(true);
     return false;
  }
-    return true;
-  
+    
+
     console.log(isOdd(2)); // => false
     console.log(isOdd(5)); // => true
     console.log(isOdd(-17)); // => true
