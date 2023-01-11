@@ -7,11 +7,12 @@
  */
 
 function isOdd(num) {
-    if (num % 2 == 1) {
+    if (num % 2 == 1) 
+    {
         return false;
-    } else {
+    } 
+    
         return true;
-    }
   }
   
   console.log(isOdd(2)); // => false
