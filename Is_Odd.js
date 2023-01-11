@@ -12,27 +12,27 @@
    * and one without using conditionals.
    **/
 
-function isOdd(num) {
-    if (num % 2 === 0) 
-    {
-        return false;
-    } 
+// function isOdd(num) {
+//     if (num % 2 === 0) 
+//     {
+//         return false;
+//     } 
     
-        return true;
-  }
+//         return true;
+//   }
   
-  console.log(isOdd(2)); // => false
-  console.log(isOdd(5)); // => true
-  console.log(isOdd(-17)); // => true
+//   console.log(isOdd(2)); // => false
+//   console.log(isOdd(5)); // => true
+//   console.log(isOdd(-17)); // => true
 
 
  // Without conditionals.
 
  function isOdd(num) {
-     num % 2 === 0;
-    return true;
- }
+    num % 2 === 0;
     return false;
+ }
+    return true;
   
     console.log(isOdd(2)); // => false
     console.log(isOdd(5)); // => true
