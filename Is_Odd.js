@@ -29,9 +29,9 @@
  // Without conditionals.
 
  function isOdd(num) {
-    num % 2 === 0;
-    console.log(true);
-    return false;
+    let even = num % 2;
+    even === 0;
+    return even;
  }
     
 
