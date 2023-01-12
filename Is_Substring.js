@@ -8,7 +8,7 @@
  */
 
 function isSubstring(searchString, subString) {
-    // your code here...
+    
   }
   
   console.log(isSubstring("The cat went to the store", "he cat went")); // => true
