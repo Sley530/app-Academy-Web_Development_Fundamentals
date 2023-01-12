@@ -8,7 +8,14 @@
  */
 
 function isSubstring(searchString, subString) {
-    
+    let str = toLowerCase(searchString);
+    let _str = toLowerCase(subString);
+
+    if (str.indexOf(_str) !== -1)
+    {
+      return true;
+    }
+      return false;
   }
   
   console.log(isSubstring("The cat went to the store", "he cat went")); // => true
