@@ -8,9 +8,9 @@
  */
 
 function isSubstring(searchString, subString) {
-    let str = toLowerCase(searchString);
-    let _str = toLowerCase(subString);
-
+    let str = searchString.toLowerCase();
+    let _str = subString.toLowerCase();
+    
     if (str.indexOf(_str) !== -1)
     {
       return true;
