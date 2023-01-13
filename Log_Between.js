@@ -17,3 +17,5 @@ function logBetween(lowNum, highNum)
         
     }
 }
+
+logBetween(-1, 2);
