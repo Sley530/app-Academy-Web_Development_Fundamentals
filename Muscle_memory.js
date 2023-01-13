@@ -1,3 +1,4 @@
+// This is an example function provided by app Academy.
 function sayHello(name) 
 {
     let msg = "Hello, " + name + ". How are you?";
