@@ -5,10 +5,11 @@
  * @author Sley
  */ 
 
-function whisper(str) {
+function whisper(str) 
+{
     let _str = "..." + str + "...";
     return _str.toLowerCase();
-  }
+}
   
   console.log(whisper("Hey Buddy")); // => "...hey buddy..."
   console.log(whisper("YEA! that was fun")); // => "...yea! that was fun..."
