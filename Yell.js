@@ -5,10 +5,11 @@
  * @author Sley
  */
 
-function yell(str) {
+function yell(str) 
+{
     let _str = str + "!!!";
     return _str.toUpperCase();
-  }
+}
   
   console.log(yell("I want to go to the store")); // => "I WANT TO GO TO THE STORE!!!"
   console.log(yell("Time to program")); // => "TIME TO PROGRAM!!!"
