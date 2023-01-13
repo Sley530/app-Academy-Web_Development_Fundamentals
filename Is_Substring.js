@@ -7,14 +7,15 @@
  * @author Sley
  */
 
-function isSubstring(searchString, subString) {
+function isSubstring(searchString, subString) 
+{
     
     let str = searchString.toLowerCase();
     let _str = subString.toLowerCase();
     
     return (str.indexOf(_str) !== -1);
       
-  }
+}
   
   console.log(isSubstring("The cat went to the store", "he cat went")); // => true
   console.log(isSubstring("Time to program", "time")); // => true
