@@ -5,12 +5,13 @@
  * @author Sley
  */
 
-function echo(string) {
+function echo(string) 
+{
     let str = string.toUpperCase();
     let _str = string.toLowerCase();
     let _str_ = str + " ... " + string + " ... " + _str;
     console.log(_str_);
-  }
+}
   
   echo("Mom!"); // => prints "MOM! ... Mom! ... mom!"
   echo("hey"); // => prints "HEY ... hey ... hey"
