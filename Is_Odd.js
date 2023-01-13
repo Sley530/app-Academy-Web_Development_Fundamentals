@@ -31,7 +31,7 @@ console.log(isOdd(-17)); // => true
  function isOdd_W_O(num)
  {
     let even = num % 2 !== 0;
-    return even;
+    return (even);
  }
     
 console.log(isOdd(2)); // => false
