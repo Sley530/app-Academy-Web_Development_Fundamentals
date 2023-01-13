@@ -16,3 +16,4 @@ function isCool(string) {
   isCool("Music"); // Music
   isCool("JavaScript"); // JavaScript
   isCool("The world"); // The world
+  
