@@ -28,11 +28,11 @@ console.log(isOdd(-17)); // => true
 
  // Without conditionals.
 
- function isOdd_W_O(num)
- {
+function isOdd_W_O(num)
+{
     let even = num % 2 !== 0;
     return (even);
- }
+}
     
 console.log(isOdd(2)); // => false
 console.log(isOdd(5)); // => true
