@@ -7,7 +7,7 @@
 
 function printFives(max) 
 {
-    for (let i = 0; i < max; i*=5)
+    for (let i = 0; i < max; i *= 5)
     {
         console.log(i);
     }
