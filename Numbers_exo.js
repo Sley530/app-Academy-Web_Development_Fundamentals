@@ -1,3 +1,10 @@
+/* In this exercise I will practice 
+ * arithmetics operations with
+ * math operators
+ * 
+ * @author Sley
+ */ 
+
 // Example:
 console.log(4 + 2.5)   // 6.5
 
