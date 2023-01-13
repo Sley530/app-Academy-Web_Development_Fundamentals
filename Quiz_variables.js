@@ -1,3 +1,9 @@
+/* In this exercise I will
+ * practice variable and incrementation
+ * 
+ * @author Sley
+ */ 
+
 let i = 4;
 i + 3;
 console.log(i);
