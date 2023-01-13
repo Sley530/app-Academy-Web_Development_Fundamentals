@@ -1,7 +1,8 @@
-function goodbye(name) {
+function goodbye(name) 
+{
     // your code here...
    return "Bye " + name + "."; 
-  }
+}
   
   console.log(goodbye("Daniel")); // => "Bye Daniel."
   console.log(goodbye("Mark")); // => "Bye Mark."
