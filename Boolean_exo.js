@@ -1,3 +1,11 @@
+/* In this exercise I will
+ * practice boolean values
+ * and relational operators in JavaScript
+ * 
+ * @author Sley
+ */
+
+
 // Example:
 console.log(false || false)   // false
 
