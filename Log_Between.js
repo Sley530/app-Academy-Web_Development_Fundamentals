@@ -8,14 +8,12 @@
 
 function logBetween(lowNum, highNum) 
 {
-    if(lowNum < highNum)
-    { 
-        for(let i = 0; i <= (highNum - lowNum); i++)
-        {
-            console.log(lowNum + i);
-        } 
-        
-    }
+    
+    for(let i = 0; i <= (highNum - lowNum); i++)
+    {
+        console.log(lowNum + i);
+    } 
+    
 }
 
 logBetween(-1, 2);
