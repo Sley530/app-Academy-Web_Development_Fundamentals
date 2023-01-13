@@ -19,3 +19,4 @@ function logBetween(lowNum, highNum)
 }
 
 logBetween(-1, 2);
+logBetween(14, 6);
