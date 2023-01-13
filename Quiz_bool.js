@@ -1,3 +1,10 @@
+/* In this exercise I will
+ * practice boolean values
+ * and relational operators
+ * 
+ * @author Sley
+ */ 
+
 console.log(!true);
 console.log(!!false);
 console.log(false && false);
