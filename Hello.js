@@ -6,9 +6,10 @@
  * @author Sley
  */
 
-function hello(str) {
+function hello(str) 
+{
     console.log("Hello, " + str);
-  }
+}
   
   hello("cat"); // prints "Hello, cat"
   hello("Helen"); // prints "Hello, Helen"
