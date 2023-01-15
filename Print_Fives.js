@@ -14,4 +14,3 @@ function printFives(max)
 } 
 
 printFives(20);
-
