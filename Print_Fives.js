@@ -13,5 +13,5 @@ function printFives(max)
     }
 } 
 
-printFives(12);
+printFives(20);
 
