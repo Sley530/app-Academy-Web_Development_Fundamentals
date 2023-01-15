@@ -7,11 +7,11 @@
 
 function printFives(max) 
 {
-    for (let i = 0; i <= (max/5); i++)
+    for (let i = 0; i < (max/5); i++)
     {
         console.log(i * 5);
     }
 } 
 
-printFives(20);
+printFives(12);
 
