@@ -6,20 +6,33 @@
  * @author Sley
  */
 
-function countVowels(word) 
-{
-   let MyArray = ["a", "e", "i", "o", "u"];
-
-   let i = 0
-   while (i < MyArray.length)
-   {
-        return MyArray.length;
-        
+function countVowels(word) {
+ let MyArray = ["a", "e", "i", "o", "u"];
+  count = 0;
+  for(let i = 0; i < word.length; i++){
+   for(let j = 0; j < MyArray.length; j++){
+     if(word[i] === MyArray[j]){
+       count++;
+       break;
+    }   
    }
+  }
+  return count;
+} 
 
-    
-};
 
-  console.log(countVowels("bootcamp")); // => 3
-//   console.log(countVowels("apple")); // => 2
-//   console.log(countVowels("pizza")); // => 2
+function countVowels2(word) {
+ let MyArray = ["a", "e", "i", "o", "u"];
+  count = 0
+  for(let i = 0; i < word.length; i++){
+   if(MyArray.includes(word[i])){
+     count++;
+   }     
+  }
+  return count;
+}
+
+ 
+console.log(countVowels("bootcamp")); // => 3
+console.log(countVowels("apple")); // => 2
+console.log(countVowels("pizza")); // => 2
