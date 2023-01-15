@@ -8,7 +8,13 @@
 
 function logBetweenStepper(min, max, step)
 {
-    
+    let i = min;
+
+    while (i <= max)
+    {
+        console.log(i);
+           i =  i + step;
+    }
 }
 
 
@@ -22,7 +28,7 @@ logBetweenStepper(5, 9, 1); // prints out:
 // 9
 
 
-logBetweenStepper(-10, 15, 5)  // prints out:
+logBetweenStepper(-10, 15, 5);  // prints out:
 // -10
 // -5
 // 0
