@@ -14,3 +14,17 @@ function printFives(max)
 } 
 
 printFives(20);
+
+
+function printFivesIf(max) 
+{
+    for (let i = 0; i < max; i += 1) 
+    {
+      if (i % 5 === 0) 
+      {
+        console.log(i);
+      }
+    }
+}
+
+  printFivesIf(20);
