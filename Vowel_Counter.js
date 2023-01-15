@@ -23,7 +23,7 @@ function countVowels(word) {
 
 function countVowels2(word) {
  let MyArray = ["a", "e", "i", "o", "u"];
-  count = 0
+  count = 0;
   for(let i = 0; i < word.length; i++){
    if(MyArray.includes(word[i])){
      count++;
