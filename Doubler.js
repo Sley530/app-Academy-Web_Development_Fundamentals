@@ -6,7 +6,11 @@
  */
 
 function doubler(numbers) {
-    let MyArray = numbers * 2;
+    let MyArray = [];
+    for (let i = 0; i < numbers.length; i++) 
+    {
+        MyArray.push(numbers[i] * 2);
+    }
     return (MyArray);
 }
 
