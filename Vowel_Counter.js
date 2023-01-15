@@ -33,6 +33,6 @@ function countVowels2(word) {
 }
 
  
-console.log(countVowels2("bootcamp")); // => 3
-console.log(countVowels2("apple")); // => 2
-console.log(countVowels2("pizza")); // => 2
+console.log(countVowels("bootcamp")); // => 3
+console.log(countVowels("apple")); // => 2
+console.log(countVowels("pizza")); // => 2
