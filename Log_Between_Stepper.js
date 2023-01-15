@@ -13,10 +13,17 @@ function logBetweenStepper(min, max, step)
     while (i <= max)
     {
         console.log(i);
-           i =  i + step;
+        i += step;
     }
 }
 
+function logBetweenStepper2(min, max, step)
+{
+    for(let i = min; i <= max; i += step)
+    {
+        console.log(i);
+    }
+}
 
 
 // Examples:
@@ -28,7 +35,7 @@ logBetweenStepper(5, 9, 1); // prints out:
 // 9
 
 
-logBetweenStepper(-10, 15, 5);  // prints out:
+logBetweenStepper2(-10, 15, 5);  // prints out:
 // -10
 // -5
 // 0
