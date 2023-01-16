@@ -9,6 +9,7 @@
 function fizzBuzz(max) 
 {
     let i = 1;
+    
     while (i < max){
         if (((i % 3 === 0) && !(i % 5 === 0)) 
         || (!(i % 3 === 0) && (i % 5 === 0)))
