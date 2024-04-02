@@ -1,0 +1,73 @@
+
+<!-- Phase 1: Creating the Form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User Form</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Add user</legend>
+
+            <!-- Phase 2: Basic Information -->
+
+            <!-- First Name -->
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <!-- Last Name -->
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <!-- Email Address -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Phase 3: Drop Down Menu -->
+
+            <label for="status">Status:</label>
+                <select id="status" name="status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+
+            <!-- Phase 4: Radio Buttons -->
+
+                <p>Choose your favorite programming language:</p>
+                <label for="html">HTML</label>
+                <input type="radio" id="html" name="programming-language" value="HTML">
+                <label for="css">CSS</label>
+                <input type="radio" id="css" name="programming-language" value="CSS">
+                <label for="javascript">JavaScript</label>
+                <input type="radio" id="javascript" name="programming-language" value="JavaScript">
+
+            <!-- Phase 5: Additional Information -->
+
+            <!-- Text area for Comments -->
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+                <!-- Input for Current Date -->
+                <label for="current-date">Current Date:</label>
+                <input type="date" id="current-date" name="current-date">
+
+            <!-- Phase 6: Submission -->
+
+                <!-- Checkbox for Newsletter Sign-up -->
+                <label for="newsletter">Sign up for newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <!-- Checkbox for Agreeing to Terms and Conditions -->
+                <label for="terms">Agree to terms and conditions</label>
+                <input type="checkbox" id="terms" name="terms" required>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
