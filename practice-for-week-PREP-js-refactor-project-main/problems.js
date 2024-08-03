@@ -139,7 +139,6 @@ function countConsonants(word) {
     return count;
 }
 
-
 /*
     Original:
     Write a function `whisper` that takes in a string and returns a "whispered"
