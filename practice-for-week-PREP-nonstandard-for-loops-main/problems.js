@@ -12,30 +12,35 @@ function oddReverse(arr) {
     // Return an array containing all the odd indices starting from the end
     // Your code here
     const oddReverse = [];
-    for (let i = arr.length - 1; i >= 0; i -= 2) {
-        oddReverse.push(arr[i]);
+    for (let i = arr.length - 1; i >= 1; i--) {
+        if (i % 2 !== 0) {
+            oddReverse.push(arr[i]);
+        }
     }
     return oddReverse;
 }
+
 
 function secondPower(arr) {
     // Return an array containing all indices that are powers of 2
     // Your code here
     const secondPower = [];
-    for (let i = 0; i < arr.length; i++) {
-        if (i === 0 || i % 2 === 0) {
-            secondPower.push(arr[i]);
+
+    for (let i = 2; i < arr.length; i++) {
+            if (arr[i ** 2] === undefined) {
+                break;
+            }
+            secondPower.push(arr[i ** 2]);
         }
-    }
     return secondPower;
 }
-
+console.log(secondPower([1, 2, 3, 4]));
 function nthPower(arr, n) {
     // Return an array containing all indices that are powers of n
     // Your code here
     const nthPower = [];
     for (let i = 0; i < arr.length; i++) {
-        if (i === 0 || i % n === 0) {
+        if (Math.pow(n, i) === i) {
             nthPower.push(arr[i]);
         }
     }
